@@ -121,7 +121,7 @@ You will find the newly registered customer's id.
 
    - TypeScript         : 2.4.2
    - @angular/cli       : 1.5.0
-   - Node: 6.11.3
+   - Node               : 6.11.3
 
 
 ## Reference
