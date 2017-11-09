@@ -1,6 +1,6 @@
 
 
-# _ng5-i18n-demo_ Angular2によるStripe APIのテストツール
+# _ng5-i18n-demo_ Angular5による多言語化のサンプル
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
