@@ -74,11 +74,9 @@ $ npm run start:ja
 
 ## バージョン
 
-   - o2-stripe-test     : 0.1.1
-   - Angular2           : 2.4.0
-   - TypeScript         : 2.0.0
-   - @angular/cli      : 1.0.0-rc.1
-   - @ng-bootstrap/ng-bootstrap : 1.0.0-alpha
+   - TypeScript         : 2.4.2
+   - @angular/cli       : 1.5.0
+   - Node               : 6.11.3
 
 
 ## 参考文献
