@@ -71,9 +71,7 @@ And you will get the page below in your browser by accessing **http://localhost:
 
   - ***First Page*** 
 
-  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/stripe/o2-stripe-test-initial01.png" width= "640" >
-
-
+  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng5-i18n-demo/ng5-i18n-demo_ja-page_01.png" width= "640" >
 
 
 
