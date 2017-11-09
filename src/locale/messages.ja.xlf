@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="topWelcome" datatype="html">
+        <source>
+    Welcome to <x id="INTERPOLATION" equiv-text="{{title}}"/>!
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      <target>ようこそ <x id="INTERPOLATION" equiv-text="{{title}}"/>!へ</target> </trans-unit>
+      <trans-unit id="linkIntroduction" datatype="html">
+        <source>Here are some links to help you start: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      <target>以下に開始あたって有用なリンクをご紹介します</target></trans-unit>
+    </body>
+  </file>
+</xliff>
