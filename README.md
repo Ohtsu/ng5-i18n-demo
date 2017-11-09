@@ -4,7 +4,7 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
-_ng5-i18n-demo_ is a tool program for testing Stripe API Service by Angular2.
+_ng5-i18n-demo_ is a sample program for testing internationalization in Angular5.
 
 _Video Explanation_
 <https://youtu.be/eifU5C11WLI>
