@@ -11,21 +11,14 @@ _Video Explanation_
 
 
 ## Overview 
-   - _ng5-i18n-demo_ is a tool for those who want to check Stripe API Service by using Angular2
+   - _ng5-i18n-demo_ is a sample program for realizing internationalization in Angular5
 
-   - Main APIs (Subscription,Charge,Order,Account,Customer,Token,Refund,PLan,Product,SKU,Event,Dispute,Balance,Transfer,FileUpload) are supported
-
-   - You can check the functions as both a customer (client side) and an administrator (server side).
-
-    You can extend functions for more APIs by these base common methods.
-   
 
 ## Prerequisite
 
    - Node.js
    - TypeScript2
-   - Angular2
-   - @ng-bootstrap/ng-bootstrap
+   - Angular/Cli (for Angular5 or later)
 
 
 ## Installation
@@ -42,81 +35,36 @@ $ cd mydir
    - Make the clone as follows.
 
 ```bash
-$ git clone https://github.com/Ohtsu/o2-stripe-test.git 
+$ git clone https://github.com/Ohtsu/ng5-i18n-demo.git 
 ```
 
    - Change into _ng5-i18n-demo_ and run "npm install".
 
 ```bash
-$ cd o2-stripe-test
+$ cd ng5-i18n-demo
 $ npm install 
 ```
 
-### If you have an error as follows
 
-```bash
-+-- @angular/cli@1.0.0-rc.1
-`-- UNMET PEER DEPENDENCY typescript@2.0.10
-```
+#### Start English (default) version
 
-Install @angular/cli globally
-
-```bash
-$ npm install -g @angular/cli 
-$ npm install
-```
-
-
-#### Modify stripe-auth.ts
-
-Change directory to "src/app".
-
-```bash
-$ cd src/app
-```
-You will find **stripe-auth.ts**.
-Modify this file by using your own Stripe Test Keys. You can get these in <https://dashboard.stripe.com/account/apikeys>. 
-
-```typescript
-import { Injectable } from '@angular/core';
-
-@Injectable()
-export class StripeAuthService {
-
-  constructor() { }
-	
-  public isLogin(): boolean {
-    return true;
-  }
-
-  public getRole(): any {
-    return 'admin';
-  }
-
-  // Set your keys of Stripe --------------------------------------------
-
-  public getTestSecretKey(){
-    if (this.isLogin && this.getRole() == 'admin'){
-      return "sk_test_xxxxxxxxxxxxxxxxxxxxx";
-    }
-  }
-
-  public getTestPublicKey(){
-    if (this.isLogin && this.getRole() == 'admin'){
-      return "pk_test_xxxxxxxxxxxxxxxxxxxxx";
-    }
-  }
-  
-  
-}
-```
-
-
-### Start server
-Start the local server as follows. 
 
 ```bash
 $ ng serve
+```
+And you will get the page below in your browser by accessing **http://localhost:4200**.  
+
+  - ***First Page*** 
+
+  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/stripe/o2-stripe-test-initial01.png" width= "640" >
+
+
+
+### Start other language (Japanese) version 
+Start the local server as follows. 
+
+```bash
+$ npm run start:ja
 ```
 
 And you will get the page below in your browser by accessing **http://localhost:4200**.  
@@ -180,23 +128,14 @@ You will find the newly registered customer's id.
 
 ## Reference
 
-- "Stripe docs",
-<https://stripe.com/docs>
-
-- "The Stripe Webhook Event Cheatsheet" ,by Pete Keen, 
-<https://www.masteringmodernpayments.com/stripe-webhook-event-cheatsheet>
-
-- "Using Stripe with Angular 2", by Minko Gechev
-<http://blog.mgechev.com/2016/07/05/using-stripe-payment-with-angular-2/>
-
-- "Taking Stripe Payments with Angular 2 and ASP.NET Core",2017/1/12, by Carl Rippon
-<http://www.carlrippon.com/?p=645>
+- "Internationalization (I18N)",
+<https://v2.angular.io/docs/ts/latest/cookbook/i18n.html>
 
 
 
 ## Change Log
 
- - 2017.3.20 version 0.1 uploaded 
+ - 2017.11.9 version 0.1 uploaded 
 
 ## Copyright
 
