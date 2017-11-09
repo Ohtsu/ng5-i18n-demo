@@ -131,7 +131,8 @@ You will find the newly registered customer's id.
 - "Internationalization (I18N)",
 <https://v2.angular.io/docs/ts/latest/cookbook/i18n.html>
 
-
+- "Internationalization (I18N) Japanese Translation",
+<https://qiita.com/mixplace/items/3f1e1190e38c14f5297d>
 
 ## Change Log
 
