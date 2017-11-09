@@ -119,11 +119,9 @@ You will find the newly registered customer's id.
 
 ## Version
 
-   - o2-stripe-test     : 0.1.1
-   - Angular2           : 2.4.0
-   - TypeScript         : 2.0.0
-   - @angular/cli      : 1.0.0-rc.1
-   - @ng-bootstrap/ng-bootstrap : 1.0.0-alpha
+   - TypeScript         : 2.4.2
+   - @angular/cli       : 1.5.0
+   - Node: 6.11.3
 
 
 ## Reference
@@ -131,7 +129,7 @@ You will find the newly registered customer's id.
 - "Internationalization (I18N)",
 <https://v2.angular.io/docs/ts/latest/cookbook/i18n.html>
 
-- "Internationalization (I18N) Japanese Translation",
+- "Internationalization (I18N) Japanese Translation by mixplace in Qiita",
 <https://qiita.com/mixplace/items/3f1e1190e38c14f5297d>
 
 ## Change Log
