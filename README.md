@@ -7,7 +7,7 @@
 _ng5-i18n-demo_ is a sample program for testing internationalization in Angular5.
 
 _Video Explanation_
-<https://youtu.be/eifU5C11WLI>
+<https://youtu.be/5-6dwYtfRO4>
 
 
 ## Overview 
@@ -92,7 +92,8 @@ And you will get the page below in your browser by accessing **http://localhost:
 
 ## Change Log
 
- - 2017.11.9 version 0.1 uploaded 
+ - 2017.11.9 version 0.1 uploaded
+ - 2017.11.14 Modified Video URL
 
 ## Copyright
 
