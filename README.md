@@ -7,7 +7,7 @@
 _ng5-i18n-demo_ is a sample program for testing internationalization in Angular5.
 
 _Video Explanation_
-<https://youtu.be/eifU5C11WLI>
+<https://youtu.be/5-6dwYtfRO4>
 
 
 ## Overview 
@@ -90,9 +90,14 @@ And you will get the page below in your browser by accessing **http://localhost:
 - "Internationalization (I18N) Japanese Translation by mixplace in Qiita",
 <https://qiita.com/mixplace/items/3f1e1190e38c14f5297d>
 
+- "Angular5 Custom Library: The definitive, step-by-step guide", 
+<https://www.udemy.com/draft/1461368/learn/v4/content>
+
+
 ## Change Log
 
- - 2017.11.9 version 0.1 uploaded 
+ - 2017.11.9 version 0.1 uploaded
+ - 2017.11.14 Modified Video URL
 
 ## Copyright
 

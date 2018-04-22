@@ -7,7 +7,7 @@
 _ng5-i18n-demo_ はAngular5における多言語化機能をテストするためのプログラムです。
 
 _ビデオ解説_
-<https://youtu.be/eifU5C11WLI>
+<https://youtu.be/5-6dwYtfRO4>
 
 
 ## 概要 
@@ -92,6 +92,7 @@ $ npm run start:ja
 ## 変更履歴
 
  - 2017.11.9 version 0.1 uploaded 
+ - 2017.11.14 ビデオ解説のＵＲＬを修正
 
 ## Copyright
 
