@@ -5,8 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "build:ja":"ng build --aot --output-path dist/ja --base-href /ja/ --i18nFile=src/locale/messages.ja.xlf --i18nFormat=xlf --locale=ja",
+    "build": "ng build --base-href /ng5-i18n-demo/",
+    "build:ja":"ng build --aot --output-path dist/ja --base-href /ng5-i18n-demo/ja/ --i18nFile=src/locale/messages.ja.xlf --i18nFormat=xlf --locale=ja",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
